@@ -236,6 +236,26 @@ section {
   margin-bottom: 10px;
 }
 
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+footer img {
+  width: 100%;
+}
+
+.footer-copyright,
+.footer-icons {
+  padding-bottom: 10px;
+}
+
+.footer-icons {
+  font-size: 22px;
+  text-align: right;
+  padding-right: 10px;
+}
 
 /* md breakpoint */
 @media screen and (max-width: 991.98px) {
@@ -260,6 +280,19 @@ section {
 
   .opinion-image {
     max-width:80px;
+  }
+
+  footer img {
+    width: 300px;
+  }
+
+  .footer-copyright,
+  .footer-icons {
+    padding-left: 20px;
+  }
+
+  .footer-icons {
+    text-align: left;
   }
 
 }
