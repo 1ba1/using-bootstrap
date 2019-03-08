@@ -15,32 +15,46 @@
   </head>
   <body>
     <div class="container-fluid">
-      <header class="row main-header">
-        <div class="col-3">
-          <p class="my-auto">Thu, Mar 07, 2019</p>
+      <header class="row main-header align-items-end justify-content-between">
+        <div class="col-lg-3 d-none d-lg-inline p-0">
+          <p class="nav-date">Thu, Mar 07, 2019</p>
         </div>
-        <div class="col-6">
-          <img class="logo d-block mx-auto" src="./assets/images/logo.svg" alt="newsweek logo">
+        <div class="col-5 col-lg-6 p-0">
+          <img class="logo d-block mx-lg-auto" src="./assets/images/logo.svg" alt="newsweek logo">
         </div>
-        <div class="col-1">
-          <button type="button" name="button">sign in</button>
-        </div>
-        <div class="col-2">
-          <button type="button" name="button">subscribe ></button>
-        </div>
+        <div class="col-7 col-lg-3 nav-buttons-col p-0">
+          <a class="nav-button" href="#">sign in</a>
+          <button class="nav-button" type="button" name="button">subscribe ></button>
+          <i class="burger fas fa-bars d-inline-block d-lg-none"></i> 
+        </div>        
       </header>
-      <nav>
-        <div class="">
-
-        </div>
+      <nav class="d-none d-lg-block">
+        <ul>
+          <li>U.S.</li>
+          <li>World</li>
+          <li>Business</li>
+          <li>Tech & Science</li>
+          <li>Culture</li>
+          <li>Sports</li>
+          <li>Health</li>
+          <li>Opinion</li>
+          <li>Ndelible</li>
+          <li>Search <i class="fas fa-search icon"></i></li>
+        </ul>
       </nav>
     </div>
 
 
 
 
-
-
+    <!-- FONT AWESOME SCRIPT -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP SCRIPTS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

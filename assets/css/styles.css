@@ -6,3 +6,28 @@
 .logo {
   max-width: 60%;
 }
+
+.nav-buttons-col {
+  text-align: right;
+}
+
+.nav-date, .nav-button {
+  margin-bottom: 20px;
+}
+
+.burger {
+  margin-right: 10px;
+}
+
+
+/* md breakpoint */
+@media screen and (max-width:991.98px){
+  .logo {
+    width: 90%;
+    max-width: 200px;
+  }
+  
+  .nav-button {
+    margin-bottom: 5px;
+  }
+}
