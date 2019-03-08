@@ -22,23 +22,27 @@ li {
 }
 
 h1 {
-  font-size: 16px !important;
+  font-size: 16px!important;
   color: rgba(3, 3, 3, 0.4);
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 24px!important;
+}
+
+h3 {
+  font-size: 20px!important;
 }
 
 h4 {
   color: #333333;
-  font-size: 19px;
+  font-size: 19px!important;
   border-bottom: 1px solid #adadad;
   text-align: center;
 }
 
 h5 {
-  font-size: 17px;
+  font-size: 17px!important;
 }
 
 a {
@@ -78,13 +82,24 @@ a:hover {
   padding: 4px;
 }
 
+.author {
+  font-family: "Roboto Condensed", "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif !important;
+  font-size: 14px;
+  color: #555;
+}
+
+.other-section-title {
+  color:red;
+}
+
 /* Custom Styles */
 #main-body {
   background-color: #f7f7f7;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .outer-container {
@@ -167,12 +182,20 @@ nav ul li:last-child {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
-  display: inline-block;
+  display: block;
+  margin-bottom: 10px;
 }
 
-section,
-.other-sections {
+section {
   padding: 50px 0;
+}
+
+.other-sections {
+  padding: 20px 0;
+}
+
+.same-column-section {
+  padding: 0;
 }
 
 .more-stories-article,
@@ -180,6 +203,11 @@ section,
 .latest-news {
   border-bottom: 1px solid #ddd;
   margin-bottom: 20px;
+}
+
+.less-important {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
 }
 
 .more-stories-image,
@@ -195,16 +223,19 @@ section,
 .opinion-image {
   width: 20%;
   padding-right: 10px;
+  margin-bottom: 10px;
 }
 
-.author {
-  font-family: "Roboto Condensed", "Franklin Gothic Medium", "Arial Narrow",
-    Arial, sans-serif !important;
-  font-size: 14px;
-  color: #555;
+.section-divider {
+  margin-bottom: 20px;
 }
 
-.latest-news-image
+.side-article-image {
+  width: 40%;
+  padding-right:10px;
+  margin-bottom: 10px;
+}
+
 
 /* md breakpoint */
 @media screen and (max-width: 991.98px) {
@@ -215,5 +246,27 @@ section,
 
   .nav-button {
     margin-bottom: 5px;
+  }
+
+  section,
+  .other-sections {
+    padding: 20px 0;
+  }
+
+  .more-stories-image,
+  .latest-news-image {
+    width: 55%;
+  }
+
+  .opinion-image {
+    max-width:80px;
+  }
+
+}
+
+/* sm breakpoint */
+@media screen and (min-width: 576px) {
+  .more-stories-image {
+    margin-bottom: 10px;
   }
 }
