@@ -13,39 +13,109 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <div class="container-fluid">
-      <header class="row main-header align-items-end justify-content-between">
-        <div class="col-lg-3 d-none d-lg-inline p-0">
-          <p class="nav-date">Thu, Mar 07, 2019</p>
+  <body id="color">
+    <div class="outer-container">
+      <div class="container-fluid">
+        <header class="row main-header align-items-end justify-content-between">
+          <div class="col-lg-3 d-none d-lg-inline p-0">
+            <p class="nav-date">Thu, Mar 07, 2019</p>
+          </div>
+          <div class="col-5 col-lg-6 p-0">
+            <img
+              class="logo d-block mx-lg-auto"
+              src="./assets/images/logo.svg"
+              alt="newsweek logo"
+            />
+          </div>
+          <div class="col-7 col-lg-3 nav-buttons-col p-0">
+            <a class="nav-button" href="#">sign in</a>
+            <button class="nav-button" type="button" name="button">
+              subscribe >
+            </button>
+            <i class="burger fas fa-bars d-inline-block d-lg-none"></i>
+          </div>
+        </header>
+        <nav class="d-none d-lg-block">
+          <ul class="">
+            <li>U.S.</li>
+            <li>World</li>
+            <li>Business</li>
+            <li>Tech & Science</li>
+            <li>Culture</li>
+            <li>Sports</li>
+            <li>Health</li>
+            <li>Opinion</li>
+            <li>Ndelible</li>
+            <li>Search <i class="fas fa-search icon"></i></li>
+          </ul>
+        </nav>
+        <div class="row">
+          <div class="order-2 order-md-1 col-12 col-md-5 col-lg-4">
+            <section>
+              <h1>featured stories</h1>
+              <article class="">
+                <img src="./assets/images/article1.jpg" alt="article image" />
+                <h2>Omar Remarks Prompt 'What Is Anti-semitism?' Debate</h2>
+                <p>
+                  “Everybody needs a lot more education, and that need for
+                  education concerns both the history of certain terms and
+                  tropes and references that may produce unwanted and unexpected
+                  reactions," Jonathan Boyarin, a professor of modern Jewish
+                  studies at Cornell University, told Newsweek.
+                </p>
+              </article>
+              <a href="#">
+                AOC Defends Ilhan Omar for Controversial Israel Comment
+              </a>
+            </section>
+          </div>
+          <div class="order-1 order-md-2 col-12 col-md-7 col-lg-4">
+            <section>
+              <h1>top story</h1>
+              <article class="">
+                <img src="./assets/images/trump.jpg" alt="article image" />
+                <h2>Why Do Ivanka and Jared Need Top-Secret Clearance?</h2>
+                <p>
+                  The nuanced day-to-day business of the White House means that
+                  some senior officials must have classified information
+                  available to them.
+                </p>
+              </article>
+              <a href="#">
+                Ivanka Should Surrender Security Pass: CNN Contributor
+              </a>
+            </section>
+            <section>
+              <h1>more stories</h1>
+              <article class="">
+                <img src="./assets/images/more-stories1.jpg" alt="article image" />
+                <h2>Ilhan Omar Takes Shot at Meghan McCain's 'Faux Outrage'</h2>
+                <p>
+                  Omar is embroiled in allegations she used anti-Semitic tropes in her criticisms of the state of Israel and the pro-Israel lobby in the U.S.
+                </p>
+              </article>
+            </section>
+          </div>
+          <div class="order-3 col-12 col-lg-4">
+            <section>
+              <h1>opinion</h1>
+              <article class="">
+                <img src="./assets/images/opinion1.jpg" alt="article image">
+                <h3>How Not To Use Sexist Language</h3>
+                <p>BY ELLA TENNANT</p>
+              </article>
+            </section>
+            <section>
+              <h1>latest news</h1>
+              <article class="">
+                <img src="./assets/images/latest.jpg" alt="article image">
+                <h3>Paul Manafort's Sentence Sets Twitter on Fire</h3>
+              </article>
+            </section>
+          </div>
         </div>
-        <div class="col-5 col-lg-6 p-0">
-          <img class="logo d-block mx-lg-auto" src="./assets/images/logo.svg" alt="newsweek logo">
-        </div>
-        <div class="col-7 col-lg-3 nav-buttons-col p-0">
-          <a class="nav-button" href="#">sign in</a>
-          <button class="nav-button" type="button" name="button">subscribe ></button>
-          <i class="burger fas fa-bars d-inline-block d-lg-none"></i> 
-        </div>        
-      </header>
-      <nav class="d-none d-lg-block">
-        <ul>
-          <li>U.S.</li>
-          <li>World</li>
-          <li>Business</li>
-          <li>Tech & Science</li>
-          <li>Culture</li>
-          <li>Sports</li>
-          <li>Health</li>
-          <li>Opinion</li>
-          <li>Ndelible</li>
-          <li>Search <i class="fas fa-search icon"></i></li>
-        </ul>
-      </nav>
+      </div>
     </div>
-
-
-
 
     <!-- FONT AWESOME SCRIPT -->
     <script

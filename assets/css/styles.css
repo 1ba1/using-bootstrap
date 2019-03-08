@@ -1,3 +1,14 @@
+#color {
+  background-color: #f7f7f7;
+}
+
+.outer-container {
+  //border: 1px solid green;
+  background-color: #fff;
+  max-width: 1320px;
+  margin: auto;
+}
+
 .main-header {
   background-color: #FC0000;
   color: #fff;
@@ -11,7 +22,8 @@
   text-align: right;
 }
 
-.nav-date, .nav-button {
+.nav-date,
+.nav-button {
   margin-bottom: 20px;
 }
 
@@ -19,6 +31,26 @@
   margin-right: 10px;
 }
 
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul li {
+  flex-grow: 1;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+nav ul li:nth-of-type(9),
+nav ul li:last-child {
+  border: none;
+}
 
 /* md breakpoint */
 @media screen and (max-width:991.98px){
@@ -26,7 +58,7 @@
     width: 90%;
     max-width: 200px;
   }
-  
+
   .nav-button {
     margin-bottom: 5px;
   }
