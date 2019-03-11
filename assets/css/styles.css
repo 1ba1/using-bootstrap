@@ -1,0 +1,324 @@
+/* Font Styles */
+html,
+body {
+  font-family: "Roboto Condensed", "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif ;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  font-family: "Roboto Condensed", "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
+h1 {
+  font-size: 16px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color: #333333;
+  font-size: 19px;
+  border-bottom: 1px solid #adadad;
+  text-align: center;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: #000 ;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red ;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.features-link {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tag {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.section-tag {
+  color: #fff;
+  background-color: red;
+  padding: 4px;
+}
+
+.author {
+  font-family: "Roboto Condensed", "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif ;
+  font-size: 14px;
+  color: #555;
+}
+
+.other-section-title {
+  color:red;
+}
+
+.nav-search {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Custom Styles */
+#main-body {
+  background-color: #f7f7f7;
+}
+
+img {
+  width: 100%;
+}
+
+.outer-container {
+  background-color: #fff;
+  max-width: 1320px;
+  margin: auto;
+}
+
+.main-header {
+  background-color: #fc0000;
+  color: #fff;
+}
+
+.logo {
+  max-width: 60%;
+}
+
+.nav-buttons-col {
+  text-align: right;
+}
+
+.nav-date,
+.nav-button {
+  margin-bottom: 20px;
+}
+
+.nav-date {
+  margin-left: 10px;
+}
+
+.nav-button {
+  margin-right: 10px;
+}
+
+.sign-in {
+  color: #fff ;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.subscribe {
+  border: none;
+  background-color: #fff;
+  color: red;
+  font-weight: 700;
+}
+
+.burger {
+  margin-right: 10px;
+}
+
+nav,
+.separating-line {
+  margin: 0 -15px;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul li {
+  flex-grow: 1;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+nav ul li:nth-of-type(9),
+nav ul li:last-child {
+  border: none;
+}
+
+.main-links {
+  font-size: 17px;
+  font-weight: 700;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  display: block;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section:first-child {
+  padding: 10px 0 50px;
+}
+
+.other-sections {
+  padding: 20px 0;
+}
+
+.same-column-section {
+  padding: 0;
+}
+
+.more-stories-article,
+.opinion-article,
+.latest-news {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.less-important {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.more-stories-article:last-child,
+.opinion-article:last-child,
+.latest-news:last-child,
+.less-important:last-child {
+  border-bottom: none;
+}
+
+.more-stories-image,
+.latest-news-image {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.latest-news-image {
+  margin-bottom: 10px;
+}
+
+.opinion-image {
+  width: 20%;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.section-divider {
+  margin-bottom: 20px;
+}
+
+.side-article-image {
+  width: 40%;
+  padding-right:10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+footer img {
+  width: 100%;
+}
+
+.footer-copyright,
+.footer-icons {
+  padding-bottom: 10px;
+}
+
+.footer-icons {
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+/* lg and upwards breakpoint */
+@media screen and (min-width: 992px){
+  .footer-logo {
+    padding-bottom: 8px;
+  }
+}
+
+/* md breakpoint */
+@media screen and (max-width: 991.98px) {
+  .logo {
+    width: 90%;
+    max-width: 200px;
+  }
+
+  .nav-button {
+    margin-bottom: 5px;
+  }
+
+  section,
+  .other-sections {
+    padding: 20px 0;
+  }
+
+  .more-stories-image,
+  .latest-news-image {
+    width: 55%;
+  }
+
+  .opinion-image {
+    max-width:80px;
+  }
+
+  footer img {
+    width: 280px;
+  }
+
+  .footer-copyright,
+  .footer-icons {
+    padding-left: 20px;
+  }
+
+}
+
+/* sm breakpoint */
+@media screen and (min-width: 576px) {
+  .more-stories-image {
+    margin-bottom: 10px;
+  }
+}

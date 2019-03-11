@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Using Bootstrap</title>    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body id="main-body">
+    <div class="outer-container">
+      <div class="container-fluid">
+        <header class="row main-header align-items-end justify-content-between">
+          <div class="col-lg-3 d-none d-lg-inline p-0">
+            <p class="nav-date">Thu, Mar 07, 2019</p>
+          </div>
+          <div class="col-5 col-lg-6 p-0">
+            <img
+              class="logo d-block mx-lg-auto"
+              src="./assets/images/logo.svg"
+              alt="newsweek logo"
+            />
+          </div>
+          <div class="col-7 col-lg-3 nav-buttons-col p-0">
+            <a class="nav-button sign-in uppercase" href="#">sign in</a>
+            <button
+              class="nav-button subscribe uppercase"
+              type="button"
+              name="button"
+            >
+              subscribe >
+            </button>
+            <i class="burger fas fa-bars d-inline-block d-lg-none"></i>
+          </div>
+        </header>
+        <nav class="d-none d-lg-block">
+          <ul>
+            <li>U.S.</li>
+            <li>World</li>
+            <li>Business</li>
+            <li>Tech & Science</li>
+            <li>Culture</li>
+            <li>Sports</li>
+            <li>Health</li>
+            <li>Opinion</li>
+            <li>Ndelible</li>
+            <li class="nav-search mt-auto">Search <i class="fas fa-search icon"></i></li>
+          </ul>
+        </nav>
+
+        <!-- MAIN ARTICLES -->
+        <div class="row">
+          <div class="order-2 order-md-1 col-12 col-md-5 col-lg-4">
+            <section>
+              <h1 class="uppercase">featured stories</h1>
+              <article>
+                <img src="./assets/images/article1.jpg" alt="article image" />
+                <h2>Omar Remarks Prompt 'What Is Anti-semitism?' Debate</h2>
+                <p>
+                  “Everybody needs a lot more education, and that need for
+                  education concerns both the history of certain terms and
+                  tropes and references that may produce unwanted and unexpected
+                  reactions," Jonathan Boyarin, a professor of modern Jewish
+                  studies at Cornell University, told Newsweek.
+                </p>
+              </article>
+              <a class="main-links" href="#">
+                AOC Defends Ilhan Omar for Controversial Israel Comment
+              </a>
+              <article>
+                <img src="./assets/images/article1.jpg" alt="article image" />
+                <h2>Omar Remarks Prompt 'What Is Anti-semitism?' Debate</h2>
+                <p>
+                  “Everybody needs a lot more education, and that need for
+                  education concerns both the history of certain terms and
+                  tropes and references that may produce unwanted and unexpected
+                  reactions," Jonathan Boyarin, a professor of modern Jewish
+                  studies at Cornell University, told Newsweek.
+                </p>
+              </article>
+              <a class="main-links" href="#">
+                AOC Defends Ilhan Omar for Controversial Israel Comment
+              </a>
+              <article>
+                <img src="./assets/images/article1.jpg" alt="article image" />
+                <h2>Omar Remarks Prompt 'What Is Anti-semitism?' Debate</h2>
+                <p>
+                  “Everybody needs a lot more education, and that need for
+                  education concerns both the history of certain terms and
+                  tropes and references that may produce unwanted and unexpected
+                  reactions," Jonathan Boyarin, a professor of modern Jewish
+                  studies at Cornell University, told Newsweek.
+                </p>
+              </article>
+              <a class="main-links" href="#">
+                AOC Defends Ilhan Omar for Controversial Israel Comment
+              </a>
+            </section>
+          </div>
+          <div class="order-1 order-md-2 col-12 col-md-7 col-lg-4">
+            <section>
+              <h1 class="uppercase">top story</h1>
+              <article>
+                <img src="./assets/images/trump.jpg" alt="article image" />
+                <h2>Why Do Ivanka and Jared Need Top-Secret Clearance?</h2>
+                <p>
+                  The nuanced day-to-day business of the White House means that
+                  some senior officials must have classified information
+                  available to them.
+                </p>
+              </article>
+              <a class="main-links" href="#">
+                Ivanka Should Surrender Security Pass: CNN Contributor
+              </a>
+            </section>
+            <section class="same-column-section">
+              <h1 class="uppercase">more stories</h1>
+              <article
+                class="d-block d-sm-flex d-md-block align-items-start more-stories-article"
+              >
+                <img
+                  class="float-left more-stories-image"
+                  src="./assets/images/more-stories1.jpg"
+                  alt="article image"
+                />
+                <div>
+                  <h5>
+                    Ilhan Omar Takes Shot at Meghan McCain's 'Faux Outrage'
+                  </h5>
+                  <p>
+                    Omar is embroiled in allegations she used anti-Semitic
+                    tropes in her criticisms of the state of Israel and the
+                    pro-Israel lobby in the U.S.
+                  </p>
+                </div>
+              </article>
+              <article
+                class="d-block d-sm-flex d-md-block align-items-start more-stories-article"
+              >
+                <img
+                  class="float-left more-stories-image"
+                  src="./assets/images/more-stories1.jpg"
+                  alt="article image"
+                />
+                <div>
+                  <h5>
+                    Ilhan Omar Takes Shot at Meghan McCain's 'Faux Outrage'
+                  </h5>
+                  <p>
+                    Omar is embroiled in allegations she used anti-Semitic
+                    tropes in her criticisms of the state of Israel and the
+                    pro-Israel lobby in the U.S.
+                  </p>
+                </div>
+              </article>
+              <article
+                class="d-block d-sm-flex d-md-block align-items-start more-stories-article"
+              >
+                <img
+                  class="float-left more-stories-image"
+                  src="./assets/images/more-stories1.jpg"
+                  alt="article image"
+                />
+                <div>
+                  <h5>
+                    Ilhan Omar Takes Shot at Meghan McCain's 'Faux Outrage'
+                  </h5>
+                  <p>
+                    Omar is embroiled in allegations she used anti-Semitic
+                    tropes in her criticisms of the state of Israel and the
+                    pro-Israel lobby in the U.S.
+                  </p>
+                </div>
+              </article>
+              <article
+                class="d-block d-sm-flex d-md-block align-items-start more-stories-article"
+              >
+                <img
+                  class="float-left more-stories-image"
+                  src="./assets/images/more-stories1.jpg"
+                  alt="article image"
+                />
+                <div>
+                  <h5>
+                    Ilhan Omar Takes Shot at Meghan McCain's 'Faux Outrage'
+                  </h5>
+                  <p>
+                    Omar is embroiled in allegations she used anti-Semitic
+                    tropes in her criticisms of the state of Israel and the
+                    pro-Israel lobby in the U.S.
+                  </p>
+                </div>
+              </article>
+              <article
+                class="d-block d-sm-flex d-md-block align-items-start more-stories-article"
+              >
+                <img
+                  class="float-left more-stories-image"
+                  src="./assets/images/more-stories1.jpg"
+                  alt="article image"
+                />
+                <div>
+                  <h5>
+                    Ilhan Omar Takes Shot at Meghan McCain's 'Faux Outrage'
+                  </h5>
+                  <p>
+                    Omar is embroiled in allegations she used anti-Semitic
+                    tropes in her criticisms of the state of Israel and the
+                    pro-Israel lobby in the U.S.
+                  </p>
+                </div>
+              </article>
+            </section>
+          </div>
+          <div class="order-3 col-12 col-lg-4">
+            <section>
+              <h1 class="uppercase">opinion</h1>
+              <article class="d-flex align-items-start opinion-article">
+                <img
+                  class="opinion-image"
+                  src="./assets/images/opinion1.png"
+                  alt="article image"
+                />
+                <div>
+                  <h5>How Not To Use Sexist Language</h5>
+                  <p class="author">BY ELLA TENNANT</p>
+                </div>
+              </article>
+              <article class="d-flex align-items-start opinion-article">
+                <img
+                  class="opinion-image"
+                  src="./assets/images/opinion1.png"
+                  alt="article image"
+                />
+                <div>
+                  <h5>How Not To Use Sexist Language</h5>
+                  <p class="author">BY ELLA TENNANT</p>
+                </div>
+              </article>
+              <article class="d-flex align-items-start opinion-article">
+                <img
+                  class="opinion-image"
+                  src="./assets/images/opinion1.png"
+                  alt="article image"
+                />
+                <div>
+                  <h5>How Not To Use Sexist Language</h5>
+                  <p class="author">BY ELLA TENNANT</p>
+                </div>
+              </article>
+              <article class="d-flex align-items-start opinion-article">
+                <img
+                  class="opinion-image"
+                  src="./assets/images/opinion1.png"
+                  alt="article image"
+                />
+                <div>
+                  <h5>How Not To Use Sexist Language</h5>
+                  <p class="author">BY ELLA TENNANT</p>
+                </div>
+              </article>
+              <article class="d-flex align-items-start opinion-article">
+                <img
+                  class="opinion-image"
+                  src="./assets/images/opinion1.png"
+                  alt="article image"
+                />
+                <div>
+                  <h5>How Not To Use Sexist Language</h5>
+                  <p class="author">BY ELLA TENNANT</p>
+                </div>
+              </article>
+              <article class="d-flex align-items-start opinion-article">
+                <img
+                  class="opinion-image"
+                  src="./assets/images/opinion1.png"
+                  alt="article image"
+                />
+                <div>
+                  <h5>How Not To Use Sexist Language</h5>
+                  <p class="author">BY ELLA TENNANT</p>
+                </div>
+              </article>
+            </section>
+            <section class="same-column-section">
+              <h1 class="uppercase">latest news</h1>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+              <article class="d-flex align-items-start latest-news">
+                <img
+                  class="latest-news-image"
+                  src="./assets/images/latest.jpg"
+                  alt="article image"
+                />
+                <h5>Paul Manafort's Sentence Sets Twitter on Fire</h5>
+              </article>
+            </section>
+          </div>
+        </div>
+
+        <!-- OTHER SECTIONS -->
+        <div class="row other-sections">
+          <div class="col-12 col-md-3">
+            <img src="./assets/images/cover.jpg" alt="magazine cover" />
+            <a class="uppercase features-link" href="#">See all features ></a>
+          </div>
+          <!-- Section: In the Magazine -->
+          <div class="col-12 col-md-9">
+            <div class="row in-the-magazine-1">
+              <div class="col-12">
+                <h4 class="uppercase section-divider">in the magazine</h4>
+              </div>
+              <div class="col-12 col-md-4">
+                <article>
+                  <img
+                    src="./assets/images/in-the-magazine1.jpg"
+                    alt="in the magazine story"
+                  />
+                  <p class="uppercase tag">
+                    <span class="section-tag">Cover</span> U.S.
+                  </p>
+                  <h3>Make America White Again?</h3>
+                </article>
+              </div>
+              <div class="col-12 col-md-4">
+                <article>
+                  <img
+                    src="./assets/images/in-the-magazine1.jpg"
+                    alt="in the magazine story"
+                  />
+                  <p class="uppercase tag">
+                    <span class="section-tag">Cover</span> U.S.
+                  </p>
+                  <h3>Make America White Again?</h3>
+                </article>
+              </div>
+              <div class="col-12 col-md-4">
+                <article>
+                  <img
+                    src="./assets/images/in-the-magazine1.jpg"
+                    alt="in the magazine story"
+                  />
+                  <p class="uppercase tag">
+                    <span class="section-tag">Cover</span> U.S.
+                  </p>
+                  <h3>Make America White Again?</h3>
+                </article>
+              </div>
+            </div>
+          </div>
+          <!-- Section: In the Magazine, cont. -->
+          <div class="col-12 col-md-3">
+            <article>
+              <img
+                src="./assets/images/in-the-magazine1.jpg"
+                alt="in the magazine story"
+              />
+              <p class="uppercase tag">
+                <span class="section-tag">Cover</span> U.S.
+              </p>
+              <h3>Make America White Again?</h3>
+            </article>
+          </div>
+          <div class="col-12 col-md-3">
+            <article>
+              <img
+                src="./assets/images/in-the-magazine1.jpg"
+                alt="in the magazine story"
+              />
+              <p class="uppercase tag">
+                <span class="section-tag">Cover</span> U.S.
+              </p>
+              <h3>Make America White Again?</h3>
+            </article>
+          </div>
+          <div class="col-12 col-md-3">
+            <article>
+              <img
+                src="./assets/images/in-the-magazine1.jpg"
+                alt="in the magazine story"
+              />
+              <p class="uppercase tag">
+                <span class="section-tag">Cover</span> U.S.
+              </p>
+              <h3>Make America White Again?</h3>
+            </article>
+          </div>
+          <div class="col-12 col-md-3">
+            <article>
+              <img
+                src="./assets/images/in-the-magazine1.jpg"
+                alt="in the magazine story"
+              />
+              <p class="uppercase tag">
+                <span class="section-tag">Cover</span> U.S.
+              </p>
+              <h3>Make America White Again?</h3>
+            </article>
+          </div>
+        </div>
+
+        <!-- EDITOR'S PICKS -->
+        <div class="row other-sections">
+          <div class="col-12">
+            <h4 class="uppercase section-divider">editor's picks</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <article>
+              <img src="./assets/images/editors-picks1.jpg" alt="" />
+              <h2>Europe Slams Saudi Arabia Over Human Rights Abuses</h2>
+              <p>
+                The statement called on the kingdom to release many of the
+                activists currently jailed in the country and for cooperation
+                with a United Nations investigation into the murder of Saudi
+                journalist Jamal Khashoggi.
+              </p>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <article>
+              <img src="./assets/images/editors-picks1.jpg" alt="" />
+              <h2>Europe Slams Saudi Arabia Over Human Rights Abuses</h2>
+              <p>
+                The statement called on the kingdom to release many of the
+                activists currently jailed in the country and for cooperation
+                with a United Nations investigation into the murder of Saudi
+                journalist Jamal Khashoggi.
+              </p>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <article>
+              <img src="./assets/images/editors-picks1.jpg" alt="" />
+              <h2>Europe Slams Saudi Arabia Over Human Rights Abuses</h2>
+              <p>
+                The statement called on the kingdom to release many of the
+                activists currently jailed in the country and for cooperation
+                with a United Nations investigation into the murder of Saudi
+                journalist Jamal Khashoggi.
+              </p>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <article>
+              <img src="./assets/images/editors-picks1.jpg" alt="" />
+              <h2>Europe Slams Saudi Arabia Over Human Rights Abuses</h2>
+              <p>
+                The statement called on the kingdom to release many of the
+                activists currently jailed in the country and for cooperation
+                with a United Nations investigation into the murder of Saudi
+                journalist Jamal Khashoggi.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <!-- FEATURED SLIDESHOWS -->
+        <div class="row other-sections">
+          <div class="col-12">
+            <h4 class="uppercase section-divider">featured slideshows</h4>
+          </div>
+          <div class="col-12 col-md-4">
+            <article>
+              <img src="./assets/images/slideshows1.jpg" alt="slideshow" />
+              <h2>
+                Marvel Cinematic Universe Movies Ranked from Worst to Best
+              </h2>
+            </article>
+          </div>
+          <div class="col-12 col-md-4">
+            <article>
+              <img src="./assets/images/slideshows1.jpg" alt="slideshow" />
+              <h2>
+                Marvel Cinematic Universe Movies Ranked from Worst to Best
+              </h2>
+            </article>
+          </div>
+          <div class="col-12 col-md-4">
+            <article>
+              <img src="./assets/images/slideshows1.jpg" alt="slideshow" />
+              <h2>
+                Marvel Cinematic Universe Movies Ranked from Worst to Best
+              </h2>
+            </article>
+          </div>
+        </div>
+
+        <!-- SECTIONS IN DETAILS -->
+        <div class="row other-sections">
+          <div class="col-12"><h2 class="other-section-title">U.S.</h2></div>
+          <div class="col-12 col-md-4">
+            <article>
+              <img
+                src="./assets/images/section-in-detail1.jpg"
+                alt="U.S. in detail"
+              />
+              <h2>Cory Booker Wants to Legalize Marijuana, Again</h2>
+            </article>
+          </div>
+          <div class="col-12 col-md-4">
+            <article>
+              <img
+                src="./assets/images/section-in-detail1.jpg"
+                alt="U.S. in detail"
+              />
+              <h2>Cory Booker Wants to Legalize Marijuana, Again</h2>
+            </article>
+          </div>
+          <div class="col-12 col-md-4">
+            <article class="less-important d-flex align-items-start">
+              <img
+                class="side-article-image"
+                src="./assets/images/section-in-detail2.jpg"
+                alt="U.S. in detail"
+              />
+              <h5>Russia Calls Trump Investigation ‘Political Games’</h5>
+            </article>
+            <article class="less-important d-flex align-items-start">
+              <img
+                class="side-article-image"
+                src="./assets/images/section-in-detail2.jpg"
+                alt="U.S. in detail"
+              />
+              <h5>Russia Calls Trump Investigation ‘Political Games’</h5>
+            </article>
+            <article class="less-important d-flex align-items-start">
+              <img
+                class="side-article-image"
+                src="./assets/images/section-in-detail2.jpg"
+                alt="U.S. in detail"
+              />
+              <h5>Russia Calls Trump Investigation ‘Political Games’</h5>
+            </article>
+          </div>
+        </div>
+
+        <hr class="separating-line">
+
+        <!-- FOOTER -->
+        <footer>
+          <div class="row align-items-end">
+            <div class="col-12 col-md-4 col-lg-2 p-0">
+              <img class="footer-logo" src="./assets/images/logo-red.jpg" alt="logo" />
+            </div>
+            <div class="col-12 col-md-4 col-lg-5 p-0">
+              <div class="footer-copyright">© 2019 NEWSWEEK</div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-5 p-0 ">
+              <div class="footer-icons text-left text-md-right">
+                <i class="fab fa-twitter"></i> <i class="fab fa-facebook"></i>
+                <i class="fab fa-youtube"></i> <i class="fab fa-pinterest"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-rss-square"></i>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- FONT AWESOME SCRIPT -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
