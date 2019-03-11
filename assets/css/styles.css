@@ -2,7 +2,7 @@
 html,
 body {
   font-family: "Roboto Condensed", "Franklin Gothic Medium", "Arial Narrow",
-    Arial, sans-serif !important;
+    Arial, sans-serif ;
 }
 
 p {
@@ -22,37 +22,37 @@ li {
 }
 
 h1 {
-  font-size: 16px!important;
+  font-size: 16px;
   color: rgba(3, 3, 3, 0.4);
 }
 
 h2 {
-  font-size: 24px!important;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 20px!important;
+  font-size: 20px;
 }
 
 h4 {
   color: #333333;
-  font-size: 19px!important;
+  font-size: 19px;
   border-bottom: 1px solid #adadad;
   text-align: center;
 }
 
 h5 {
-  font-size: 17px!important;
+  font-size: 17px;
 }
 
 a {
   text-decoration: none;
-  color: #000 !important;
+  color: #000 ;
 }
 
 a:hover {
   text-decoration: underline;
-  color: red !important;
+  color: red ;
 }
 
 .uppercase {
@@ -84,13 +84,19 @@ a:hover {
 
 .author {
   font-family: "Roboto Condensed", "Franklin Gothic Medium", "Arial Narrow",
-    Arial, sans-serif !important;
+    Arial, sans-serif ;
   font-size: 14px;
   color: #555;
 }
 
 .other-section-title {
   color:red;
+}
+
+.nav-search {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Custom Styles */
@@ -135,7 +141,7 @@ img {
 }
 
 .sign-in {
-  color: #fff !important;
+  color: #fff ;
   font-size: 14px;
   font-weight: 700;
 }
@@ -175,12 +181,6 @@ nav ul li {
 nav ul li:nth-of-type(9),
 nav ul li:last-child {
   border: none;
-}
-
-nav ul li:last-child {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
 }
 
 .main-links {
@@ -270,7 +270,6 @@ footer img {
 
 .footer-icons {
   font-size: 22px;
-  text-align: right;
   padding-right: 10px;
 }
 
@@ -313,10 +312,6 @@ footer img {
   .footer-copyright,
   .footer-icons {
     padding-left: 20px;
-  }
-
-  .footer-icons {
-    text-align: left;
   }
 
 }
