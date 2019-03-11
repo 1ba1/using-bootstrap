@@ -151,7 +151,8 @@ img {
   margin-right: 10px;
 }
 
-nav {
+nav,
+.separating-line {
   margin: 0 -15px;
 }
 
@@ -176,6 +177,12 @@ nav ul li:last-child {
   border: none;
 }
 
+nav ul li:last-child {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .main-links {
   font-size: 17px;
   font-weight: 700;
@@ -188,6 +195,10 @@ nav ul li:last-child {
 
 section {
   padding: 50px 0;
+}
+
+section:first-child {
+  padding: 10px 0 50px;
 }
 
 .other-sections {
@@ -208,6 +219,13 @@ section {
 .less-important {
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
+}
+
+.more-stories-article:last-child,
+.opinion-article:last-child,
+.latest-news:last-child,
+.less-important:last-child {
+  border-bottom: none;
 }
 
 .more-stories-image,
@@ -238,7 +256,6 @@ section {
 
 footer {
   margin-top: 20px;
-  border-top: 1px solid #ddd;
   padding: 10px 0;
 }
 
@@ -255,6 +272,13 @@ footer img {
   font-size: 22px;
   text-align: right;
   padding-right: 10px;
+}
+
+/* lg and upwards breakpoint */
+@media screen and (min-width: 992px){
+  .footer-logo {
+    padding-bottom: 8px;
+  }
 }
 
 /* md breakpoint */
@@ -283,7 +307,7 @@ footer img {
   }
 
   footer img {
-    width: 300px;
+    width: 280px;
   }
 
   .footer-copyright,
