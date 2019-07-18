@@ -316,9 +316,27 @@ footer img {
 
 }
 
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .nav-buttons-col {
+    margin-bottom: 5px;
+  }
+}
+
 /* sm breakpoint */
 @media screen and (min-width: 576px) {
   .more-stories-image {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .burger {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .burger {
+    margin-bottom: 3px;
   }
 }
